@@ -1,0 +1,7 @@
+Bundle-Activator=cl.ucn.felix.biblioteca.inventario.activador.InventarioActivador
+Bundle-SymbolicName=cl.ucn.felix.biblioteca.api.impl
+Export-Package=cl.ucn.felix.biblioteca.api.impl;version="1.0.0"
+Import-Package=org.osgi.framework,cl.ucn.felix.biblioteca.api
+Private-Package=cl.ucn.felix.biblioteca.api.impl,cl.ucn.felix.biblioteca.inventario.activador
+_noee=true
+_removeheaders=Import-Service,Export-Service
